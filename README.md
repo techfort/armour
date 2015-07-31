@@ -2,6 +2,8 @@
 
 A micro-module to prevent side-effects.
 
+(Utilizes [deep-copy](https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/The_structured_clone_algorithm))
+
 # why?
 
 Side-Effects are evil. Protect your functions from the bane of side-effects with `armour`, the paladin of JS functions.
