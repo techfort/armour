@@ -1,0 +1,33 @@
+{
+  "name": "armour",
+  "version": "0.0.1",
+  "description": "side-effects prevention facility",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "example": "node build.js && browserify example.js --outfile demo.js && node demo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/techfort/armour.git"
+  },
+  "keywords": [
+    "functional",
+    "prevent",
+    "side-effects",
+    "javascript"
+  ],
+  "author": "joe minichino <joe.minichino@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/techfort/armour/issues"
+  },
+  "homepage": "https://github.com/techfort/armour#readme",
+  "devDependencies": {
+    "babel": "^5.8.19",
+    "babel-core": "^5.8.19",
+    "babel-plugin-object-assign": "^1.2.1",
+    "babelify": "^6.1.3",
+    "browserify": "^11.0.1"
+  }
+}
