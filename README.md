@@ -14,9 +14,9 @@ Quoting wikipedia: "In computer science, a function or expression is said to hav
 
 # hey! JS is pass-by-value
 
-Yes, but JS does pass-by-value of a reference for non-primitive types, hence why - while JS technically is not a pass-by-reference language - the result is the same as a pass-by-reference... I believe I read something about [call-by-sharing](https://en.wikipedia.org/wiki/Evaluation_strategy#Call_by_sharing)
+Yes, but JS does pass-by-value of a reference for non-primitive types, hence why - while JS technically is not a pass-by-reference language - the result is the same as a pass-by-reference...
 
-And who cares! all that matter is that if you do:
+Utimately, all that matters is that if you do:
 
 ```javascript
 var o = { name: 'joe'};
@@ -26,7 +26,7 @@ function change(obj) {
 change(o); // o.name is now 'changed'
 ```
 
-your object is busted.
+your `o` object is busted.
 
 JavaScript is susceptible to side-effects because it is possible to modify variables outside of a function's scope (something that is very useful when using closures, if you know what you're doing), and because of call-by-value/sharing/mood behaviour.
 
