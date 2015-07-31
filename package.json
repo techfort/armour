@@ -1,6 +1,6 @@
 {
   "name": "armour",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "side-effects prevention facility",
   "main": "index.js",
   "scripts": {
